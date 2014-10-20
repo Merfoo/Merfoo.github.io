@@ -1,0 +1,10 @@
+@font-face
+{
+    font-family: openSansLight;
+    src: url("open-sans.light.ttf");
+}
+
+*
+{
+    font-family: openSansLight;
+}
