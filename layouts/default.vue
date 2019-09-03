@@ -1,11 +1,11 @@
 <template>
   <div>
-    <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-light is-spaced" role="navigation" aria-label="main navigation">
       <div class="container">
         <div class="navbar-brand">
           <h1 class="title">
             <a class="navbar-item" href="/">
-              Fauzi Kliman
+              FAUZI KLIMAN
             </a>
           </h1>
 
@@ -17,20 +17,37 @@
         </div>
         <div id="navbar" class="navbar-menu">
           <div class="navbar-end">
-            <a class="navbar-item" href="/Fauzi_Kliman_Resume.pdf" target="_blank">
+            <a class="navbar-item" href="/Fauzi_Kliman_Resume.pdf">
               Resume
             </a>
-            <a class="navbar-item" href="https://www.linkedin.com/in/fauzikliman/" target="_blank">
+            <a class="navbar-item" href="https://www.linkedin.com/in/fauzikliman/">
               LinkedIn
             </a>
-            <a class="navbar-item" href="https://github.com/Merfoo" target="_blank">
+            <a class="navbar-item" href="https://github.com/Merfoo">
               GitHub
             </a>
           </div>
         </div>
       </div>
     </nav>
-    <nuxt />
+    <main class="main">
+      <nuxt />
+    </main>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <div class="container">
+          <p>
+            Copyright © 2019 Fauzi Kliman
+          </p>
+          <a href="https://github.com/Merfoo">
+            <img src="~assets/GitHub-Mark-32px.png"/>
+          </a>
+          <a href="https://www.linkedin.com/in/fauzikliman/">
+            <img src="~assets/LinkedIn-Black-34px-R.png"/>
+          </a>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
