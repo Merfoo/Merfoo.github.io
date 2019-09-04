@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="site">
     <nav class="navbar is-light is-spaced" role="navigation" aria-label="main navigation">
       <div class="container">
         <div class="navbar-brand">
@@ -72,4 +72,13 @@ export default {
 </script>
 
 <style>
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column
+}
+
+.main {
+  flex: 1
+}
 </style>
