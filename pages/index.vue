@@ -6,7 +6,7 @@
             About
           </h1>
           <p>
-            Hello, I am a soon to be graduate (March 2020) from Oregon State University with a Bachelor of Science in Computer Science.
+            Hello, I am a soon to graduate (March 2020) from Oregon State University with a Bachelor of Science in Computer Science.
           </p>
           <p>
             I like to write software in C/C++, Python 3, and JavaScript for people to use and enjoy!
