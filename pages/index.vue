@@ -29,49 +29,57 @@
                   </a>
                 </template>
                 <template v-slot:content>
-                  <a href="https://github.com/Merfoo/fsm">
-                    Finite State Machine (2017)
-                  </a>
+                  <h1 class="title is-5">
+                    Finite State Machine
+                  </h1>
+                  <a href="https://merfoo.github.io/fsm/">[Live]</a>
+                  <a href="https://github.com/Merfoo/fsm">[Source]</a>
                 </template>
               </BulmaCard>
 
               <BulmaCard class="bulma-card">
                 <template v-slot:image>
-                  <a href="http://merfoo.github.io/Asteroidz/">
+                  <a href="https://merfoo.github.io/Asteroidz/">
                     <img src="~assets/asteroids.png"/>
                   </a>
                 </template>
                 <template v-slot:content>
-                  <a href="https://github.com/Merfoo/Asteroidz">
-                    Asteroids (2014)
-                  </a>
+                  <h1 class="title is-5">
+                    Asteroids
+                  </h1>
+                  <a href="https://merfoo.github.io/Asteroidz/">[Live]</a>
+                  <a href="https://github.com/Merfoo/Asteroidz">[Source]</a>
                 </template>
               </BulmaCard>
             </div>
             <div class="column">
               <BulmaCard class="bulma-card">
                 <template v-slot:image>
-                  <a href="http://merfoo.github.io/Breakout/">
+                  <a href="https://merfoo.github.io/Breakout/">
                     <img src="~assets/breakout.png"/>
                   </a>
                 </template>
                 <template v-slot:content>
-                  <a href="https://github.com/Merfoo/Breakout">
-                    Breakout (2015)
-                  </a>
+                  <h1 class="title is-5">
+                    Breakout
+                  </h1>
+                  <a href="https://merfoo.github.io/Breakout/">[Live]</a>
+                  <a href="https://github.com/Merfoo/Breakout">[Source]</a>
                 </template>
               </BulmaCard>
 
               <BulmaCard class="bulma-card">
                 <template v-slot:image>
-                  <a href="http://merfoo.github.io/Epileptic-Snake-Game/">
+                  <a href="https://merfoo.github.io/Epileptic-Snake-Game/">
                     <img src="~assets/snake.png"/>
                   </a>
                 </template>
                 <template v-slot:content>
-                  <a href="https://github.com/Merfoo/Epileptic-Snake-Game">
-                    Snake (2013)
-                  </a>
+                  <h1 class="title is-5">
+                    Snake
+                  </h1>
+                  <a href="https://merfoo.github.io/Epileptic-Snake-Game/">[Live]</a>
+                  <a href="https://github.com/Merfoo/Epileptic-Snake-Game">[Source]</a>
                 </template>
               </BulmaCard>
             </div>
