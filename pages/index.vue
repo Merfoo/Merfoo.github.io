@@ -1,10 +1,7 @@
 <template>
     <div class="container">
       <section class="section">
-        <div class="container">
-          <h1 class="title is-4">
-            About
-          </h1>
+        <div class="container has-text-centered">
           <p>
             Hello, I am a soon to graduate (March 2020) from Oregon State University with a Bachelor of Science in Computer Science.
           </p>
@@ -17,12 +14,9 @@
             <a href="https://github.com/Merfoo">GitHub</a>
           </p>
         </div>
-      </section>
-      <section class="section">
-        <div class="container">
-          <h1 class="title is-4">
-            Projects
-          </h1>
+        <br/>
+        <br/>
+        <div class="container has-text-centered">
           <div class="columns">
             <div class="column">
               <BulmaCard class="bulma-card">
