@@ -12,6 +12,9 @@
             I like to write software in C++, Python 3, JavaScript, C#, and C for people to use and enjoy!
           </p>
           <p>
+            <a href="/Fauzi_Kliman_Resume.pdf">Resume</a> |
+            <a href="https://www.linkedin.com/in/fauzikliman/">LinkedIn</a> |
+            <a href="https://github.com/Merfoo">GitHub</a>
           </p>
         </div>
       </section>
