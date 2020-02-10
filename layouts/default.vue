@@ -12,7 +12,7 @@
       <div class="content">
         <div class="container has-text-centered">
           <p>
-            Copyright © 2019 Fauzi Kliman
+            Copyright © 2020 Fauzi Kliman
           </p>
           <a href="https://github.com/Merfoo">
             <img src="~assets/GitHub-Mark-32px.png"/>
