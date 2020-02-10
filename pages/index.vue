@@ -17,7 +17,7 @@
       </section>
       <section class="section">
         <div class="container has-text-centered projects">
-          <BulmaCard class="bulma-card">
+          <ProjectCard class="project-card">
             <template v-slot:image>
               <a href="https://merfoo.github.io/fsm/">
                 <img src="~assets/fsm.png"/>
@@ -31,9 +31,9 @@
               <a href="https://merfoo.github.io/fsm/">[Live]</a>
               <a href="https://github.com/Merfoo/fsm">[GitHub]</a>
             </template>
-          </BulmaCard>
+          </ProjectCard>
 
-          <BulmaCard class="bulma-card">
+          <ProjectCard class="project-card">
             <template v-slot:image>
               <a href="https://merfoo.github.io/Breakout/">
                 <img src="~assets/breakout.png"/>
@@ -47,9 +47,9 @@
               <a href="https://merfoo.github.io/Breakout/">[Live]</a>
               <a href="https://github.com/Merfoo/Breakout">[GitHub]</a>
             </template>
-          </BulmaCard>
+          </ProjectCard>
 
-          <BulmaCard class="bulma-card">
+          <ProjectCard class="project-card">
             <template v-slot:image>
               <a href="https://merfoo.github.io/Asteroidz/">
                 <img src="~assets/asteroids.png"/>
@@ -63,9 +63,9 @@
               <a href="https://merfoo.github.io/Asteroidz/">[Live]</a>
               <a href="https://github.com/Merfoo/Asteroidz">[GitHub]</a>
             </template>
-          </BulmaCard>
+          </ProjectCard>
 
-          <BulmaCard class="bulma-card">
+          <ProjectCard class="project-card">
             <template v-slot:image>
               <a href="https://merfoo.github.io/Epileptic-Snake-Game/">
                 <img src="~assets/snake.png"/>
@@ -79,25 +79,25 @@
               <a href="https://merfoo.github.io/Epileptic-Snake-Game/">[Live]</a>
               <a href="https://github.com/Merfoo/Epileptic-Snake-Game">[GitHub]</a>
             </template>
-          </BulmaCard>
+          </ProjectCard>
         </div>
       </section>
     </div>
 </template>
 
 <script>
-import BulmaCard from '~/components/BulmaCard.vue';
+import ProjectCard from '~/components/ProjectCard.vue';
 
 export default {
   components: {
-    BulmaCard
+    ProjectCard
   }
 }
 </script>
 
 <style scoped>
-.bulma-card {
-  margin: 30px;
+.project-card {
+  margin: 10px;
   width: 600px;
 }
 
