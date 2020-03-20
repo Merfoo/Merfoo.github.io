@@ -19,6 +19,22 @@
         <div class="container has-text-centered projects">
           <ProjectCard class="project-card">
             <template v-slot:image>
+              <a href="https://merfoo-notes.netlify.com/">
+                <img src="~assets/notes.png"/>
+              </a>
+            </template>
+            <template v-slot:content>
+              <h1 class="title is-5">
+                Notes
+              </h1>
+              <p>Make an account or login to create public or private notes!</p>
+              <a href="https://merfoo-notes.netlify.com/">[Live]</a>
+              <a href="https://github.com/Merfoo/notes">[GitHub]</a>
+            </template>
+          </ProjectCard>
+
+          <ProjectCard class="project-card">
+            <template v-slot:image>
               <a href="https://merfoo.github.io/fsm/">
                 <img src="~assets/fsm.png"/>
               </a>
