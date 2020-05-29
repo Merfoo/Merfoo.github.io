@@ -3,7 +3,7 @@
       <section class="section">
         <div class="container has-text-centered">
           <p>
-            Hello, I am a soon to graduate (March 2020) from Oregon State University with a Bachelor of Science in Computer Science.
+            Hello, I am a graduate from Oregon State University (March 2020) with a Bachelor of Science in Computer Science.
           </p>
           <p>
             I like to write software in C++, Python 3, JavaScript, C#, and C for people to use and enjoy!
